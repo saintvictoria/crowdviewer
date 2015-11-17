@@ -33,12 +33,44 @@
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-2">.col-sm-2</div>
-      <div class="col-sm-9">.col-sm-9</div>
-      <div class="col-sm-1">.col-sm-1</div>
-    </div>
+      <div class="col-sm-1">.col-sm-1
+      </div>
+      <div class="col-sm-9">.col-sm-9
+      </div>
 
+      <div class="col-sm-2">.col-sm-2
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <!--Acuity Score-->
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Acuity Scores
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        <li class="list-group-item" data-toggle="collapse">APACHE II</li>
+        <li class="list-group-item" data-toggle="collapse">SAPS II</li>
+        <li class="list-group-item" data-toggle="collapse">OASIS</li>
+        <li class="list-group-item" data-toggle="collapse">MPM</li>
+        <li class="list-group-item" data-toggle="collapse">LODS</li>
+        <li class="list-group-item" data-toggle="collapse">MODS</li>
+        <li class="list-group-item" data-toggle="collapse">SOFA</li>
+        <li class="list-group-item" data-toggle="collapse">Cardiac SOFA</li>
+        <li class="list-group-item" data-toggle="collapse">Respiratory SOFA</li>
+        <li class="list-group-item" data-toggle="collapse">Hepatic SOFA</li>
+        <li class="list-group-item" data-toggle="collapse">Heme SOFA</li>
+        <li class="list-group-item" data-toggle="collapse">GCS (Neuro SOFA)</li>
+        <li class="list-group-item" data-toggle="collapse">Eye Response</li>
+        <li class="list-group-item" data-toggle="collapse">Motor Response</li>
+        <li class="list-group-item" data-toggle="collapse">Verbal Response</li>
+      </div>
+    </div>
   </div>
+        </div>
+      </div>
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
