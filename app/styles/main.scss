@@ -6,21 +6,26 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
 }
+#box {
+  bottom: 1px;
+  color: red;
+}
 
 .navbar {
   background: lightblue;
   font-size: 20px;
 }
-.col-sm-1 {
-  background-color: lightyellow;
-}
 .col-sm-2 {
-  background-color: pink;
+  background-color: lightyellow;
 }
 
 .panel-title {
   font-size: 10px;
 }
-.col-sm-9 {
+.col-sm-8 {
   background-color: lightgreen;
+}
+.datafromserver {
+  color: red;
+  font-style: italic;
 }
