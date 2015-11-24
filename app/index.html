@@ -16,23 +16,24 @@
     <!-- endbuild -->
   </head>
   <body>
-    <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
+  <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
       <a class="navbar-brand" href="#">ICU Data About This App</a>
-    </div>
+        </div>
     <div>
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Crowd Eeg Viewer</a></li>
         <li><a href="#">Heart Sounds Viewer</a></li>
       </ul>
     </div>
-  </div>
-</nav>
+      </div>
+  </nav>
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-2">.col-sm-2
+      <div class="col-sm-2">
+        <h4 class="heading">Patient Information</h4>
           <ul class="list-group">
             <li class="list-group-item">Patient
               <span class="datafromserver">00</span>
@@ -49,17 +50,27 @@
             <li class="list-group-item">Insurance
               <span class="datafromserver">insurance</span>
             </li>
-            <li class="list-group-item">Sixth item</li>
-            <li class="list-group-item">Seventh item</li>
-            <li class="list-group-item">Eighth item</li>
-            <li class="list-group-item">Nineth item</li>
+            <li class="list-group-item">Race
+              <span class="datafromserver">choices</span>
+            </li>
+            <li class="list-group-item">Pre LOS Admission
+              <span class="datafromserver">##</span>
+            </li>
+            <li class="list-group-item">Location of Diagnosis
+              <span class="datafromserver">where</span>
+            </li>
+            <li class="list-group-item">Onset Sepsis
+              <span class="datafromserver">y/n</span>
+            </li>
           </ul>
       </div>
-      <div class="col-sm-8">.col-sm-8
+      <div class="col-sm-8">
+        <h4 class="heading">Timeline</h4>
         <div id="container" style="min-width: 310px; height: 150px; margin: 0 auto"></div>
       </div>
 
-      <div class="col-sm-2">.col-sm-2
+      <div class="col-sm-2">
+        <h4 class="heading">Diagnosis</h4>
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
           <!--Acuity Score-->
   <div class="panel panel-default">
@@ -90,7 +101,7 @@
       </div>
     </div>
   </div>
-        </div>
+       </div>
 
       <!--Admission Type-->
   <div class="panel panel-default">
@@ -452,6 +463,8 @@
 
     </div>
   </div>
+</div>
+</div>
 </div>
 </div>
 

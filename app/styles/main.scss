@@ -2,9 +2,12 @@
 // Custom Styles
 
 body {
-  background: #fafafa;
+  background: #d0e3ea;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
+}
+.heading {
+  text-align: center;
 }
 #box {
   bottom: 1px;
@@ -12,18 +15,19 @@ body {
 }
 
 .navbar {
-  background: lightblue;
+  background: #12779c;
   font-size: 20px;
+  color: #000;
 }
 .col-sm-2 {
-  background-color: lightyellow;
+  //background-color: lightyellow;
 }
 
 .panel-title {
   font-size: 10px;
 }
 .col-sm-8 {
-  background-color: lightgreen;
+  //background-color: lightgreen;
 }
 .datafromserver {
   color: red;
